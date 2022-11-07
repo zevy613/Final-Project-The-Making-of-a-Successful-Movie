@@ -30,7 +30,7 @@ This data set is a conglomerate of different tables recovered from tbdm.com and 
 ## Results
 Visual #1
 
-![png](Visuals\heatmap.png)
+![png](Visuals/heatmap.png)
 
 <!-- From Visual #1 above we can see that as a patient gets older thier chances of getting heart disease increase. 
 
