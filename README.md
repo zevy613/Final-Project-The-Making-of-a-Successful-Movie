@@ -31,9 +31,13 @@ This data set is a conglomerate of different tables recovered from tbdm.com and 
 Visual #1
 
 ![png](Visuals/heatmap.png)
+From Visual #1 above we can see any features that strongly correlate with one another. From here we can see that budget and revenue, budget and view count and revenue and view count have strong correlations with each other. 
 
-<!-- From Visual #1 above we can see that as a patient gets older thier chances of getting heart disease increase. 
 
+
+
+<!--  
+![png](Visuals/)
 
 Visual #2
 
