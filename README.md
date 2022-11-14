@@ -59,7 +59,7 @@ In this barplot we can see the amount of revenue based on movie rating.
 ## Hypothesis Testing
 **Do some MPAA Ratings make more revenue than others?**
 
-Hypothesis
+**Hypothesis**
 
 - $H_0:$ The MPAA ratings have no effect how much revenue the movie generates.
 - $H_1:$ The MPAA rating does effect how much revenue the movie makes.
@@ -71,6 +71,7 @@ Hypothesis
  Test: ANOVA and/or Tukey
  
  Assumptions: 
+ 
     - No significant outliers
     - Equal variance
     - Normality
@@ -83,7 +84,36 @@ Hypothesis
  - Rating  G -> Number of outliers :  10
  - Rating  NC-17 -> Number of outliers :  2
 
+**Normality Assumption**
+ - We failed the test for normality. However, we can still proceed as planned because we have more then 15 samples in each group.
 
+
+**Equal Variance**
+Because we failed the test of equal variance we have to perform a Kruskal-Wallis test instead of a One Way ANOVA. 
+
+
+**Final Conclusion**
+Test Results: KruskalResult(statistic=1764.3856914319545, pvalue=0.0)
+Explanation: In this case we have a significant p-value which means we reject our null hypothesis and support our alternative hypthesis that "The MPAA rating does effect how much revenue the movie generates".
+
+
+**A Post-Hoc** 
+We can determined from a Post-Hoc Multiple Comparison Test that movies rated R, UR and NC-17 made significantly less than all other ratings. 
+
+![png](Visuals/barplot_Tukeys_Data.png)
+
+![png](Visuals/tukeys_plot_simultaneous.png)
+
+
+
+## Other Hypotheses we can test for...
+ - Q: Do movies that have longer movies earn more revenue than shorter ones?
+
+ - Q3: Do movies released in particular years ern more or less then movies in other years?
+
+ - Q: Do some movie genres earn more revenue than others?
+
+## Regression Model-Based Insights
 
     
 ## Results
