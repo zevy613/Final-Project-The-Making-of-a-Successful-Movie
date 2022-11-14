@@ -56,7 +56,36 @@ Visual #3
 In this barplot we can see the amount of revenue based on movie rating.
 
 
+## Hypothesis Testing
+**Do some MPAA Ratings make more revenue than others?**
 
+Hypothesis
+
+- $H_0:$ The MPAA ratings have no effect how much revenue the movie generates.
+- $H_1:$ The MPAA rating does effect how much revenue the movie makes.
+ 
+ Data Type : Numeric (Revenue)
+ 
+ Samples: More than 2 samples/groups
+ 
+ Test: ANOVA and/or Tukey
+ 
+ Assumptions: 
+    - No significant outliers
+    - Equal variance
+    - Normality
+
+**Outliers Removed**
+ - Rating  R -> Number of outliers :  112
+ - Rating  PG-13 -> Number of outliers :  80
+ - Rating  UR -> Number of outliers :  28
+ - Rating  PG -> Number of outliers :  37
+ - Rating  G -> Number of outliers :  10
+ - Rating  NC-17 -> Number of outliers :  2
+
+
+
+    
 ## Results
 <!--  
 ![png](Visuals/)
