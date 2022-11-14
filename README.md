@@ -4,7 +4,7 @@ Author: William Borenstein
 
 
 ### Business problem:
-For this project, I will produce a MySQL database on Movies from 2000 to 2019 from a subset of IMDB's publicly available dataset. Ultimately, I will use this database to analyze what makes a movie successful and will provide recommendations to the stakeholder on how to make a successful movie.
+For this project, I will produce a MySQL database on Movies from 2000 to 2019 from a subset of IMDB's publicly available dataset. Ultimately, I will use this database to analyze what makes a movie successful and will provide recommendations to the stakeholder on how to make a successful movie. This project will use a combination of machine-learning-model-based insights and hypothesis testing to extract insights for our stakeholders.
 
 ### Goal: 
  - Predict what makes a movie successful. 
@@ -12,7 +12,7 @@ For this project, I will produce a MySQL database on Movies from 2000 to 2019 fr
  - Use a Linear Regression model to predict the revenue a movie will generate.
 
 ### Data
-This data set is a conglomerate of different tables recovered from tbdm.com and imdb.com. This data set has 5,3019 rows and 25 columns. During my hypothesis test I will be focusing on the movies rating. When modeling, the target column that I will try to predict is revenue. Some of the other key features are budget, genres and popularity.
+This data set is a conglomerate of different tables recovered from tbdm.com and imdb.com. This data set has 5,3019 rows and 25 columns. During my hypothesis test I will be focusing on movie rating. When modeling, the target column that I will try to predict is the total revenue a film is expected to generate. Some of the other key features of the data are budget, genres and popularity.
 
 ## Methodology
  - Part 1: Download several files from IMDB’s movie data set and filter out the subset of movies requested by the stakeholder.
@@ -27,15 +27,37 @@ This data set is a conglomerate of different tables recovered from tbdm.com and 
  
  - Part 6: Produce a Linear Regression model to predict movie performance.
 
-## Results
+## Preliminary Data Exploration
 Visual #1
 
 ![png](Visuals/heatmap.png)
+
 From Visual #1 above we can see any features that strongly correlate with one another. From here we can see that budget and revenue, budget and view count and revenue and view count have strong correlations with each other. 
 
 
+Visual #2
+
+![png](Visuals/regplot_Budget-Revenue.png)
+
+Above we can see the budget per movie and how much revenue that particular movie generated.
 
 
+Visual #3
+
+![png](Visuals/histogram_Movies-Category.png)
+
+From this bar plot we can see how many movies there are in each movie rating that we pulled.
+
+
+Visual #3
+
+![png](Visuals/batplot_Revenue-Certification.png)
+
+In this barplot we can see the amount of revenue based on movie rating.
+
+
+
+## Results
 <!--  
 ![png](Visuals/)
 
