@@ -49,7 +49,7 @@ Visual #3
 From this bar plot we can see how many movies there are in each movie rating that we pulled.
 
 
-Visual #3
+Visual #4
 
 ![png](Visuals/batplot_Revenue-Certification.png)
 
@@ -89,16 +89,18 @@ In this barplot we can see the amount of revenue based on movie rating.
 
 
 **Equal Variance**
-Because we failed the test of equal variance we have to perform a Kruskal-Wallis test instead of a One Way ANOVA. 
+ - Because we failed the test of equal variance we have to perform a Kruskal-Wallis test instead of a One Way ANOVA. 
 
 
 **Final Conclusion**
-Test Results: KruskalResult(statistic=1764.3856914319545, pvalue=0.0)
+
+    Test Results: KruskalResult(statistic=1764.3856914319545, pvalue=0.0)
 Explanation: In this case we have a significant p-value which means we reject our null hypothesis and support our alternative hypthesis that "The MPAA rating does effect how much revenue the movie generates".
 
 
 **A Post-Hoc** 
-We can determined from a Post-Hoc Multiple Comparison Test that movies rated R, UR and NC-17 made significantly less than all other ratings. 
+
+We can determined from a Post-Hoc Multiple Comparison Test that movies rated R, UR and NC-17 made significantly less in revenue than all other ratings. 
 
 ![png](Visuals/barplot_Tukeys_Data.png)
 
@@ -114,6 +116,24 @@ We can determined from a Post-Hoc Multiple Comparison Test that movies rated R, 
  - Q: Do some movie genres earn more revenue than others?
 
 ## Regression Model-Based Insights
+
+ - Finally I used a Linear Regression Model with the help of feature engineering and other machine learning models to predict movie revenue to extract insights and recommendations on what features of a movie are positive/negative predictors of success.
+ 
+ 
+### Best Model
+
+**QQ-Plot** (left) **Residual Plot** (right)
+![png]('Visuals/final_model_graphs.png')
+
+
+**Final Training Scores**
+![png]('Visuals/final_model_results.png')
+
+
+**Final Testing Scores**
+r-square : is 0.723 
+Mean Squared Error(MSE) : 3343948347544315.5
+
 
     
 ## Results
