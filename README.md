@@ -124,19 +124,18 @@ We can determined from a Post-Hoc Multiple Comparison Test that movies rated R, 
 
 **QQ-Plot** (left) **Residual Plot** (right)
 
-![png]('Visuals/final_model_graphs.png')
+![png](Visuals/final_model_graphs.png)
 
 
 **Final Training Scores**
 
-![png]('Visuals/final_model_results.png')
+![png](Visuals/final_model_results.png)
 
 
 **Final Testing Scores**
 
  - r-square : is 0.723 
- - Mean Squared Error(MSE) : 3343948347544315.5
-
+ - Mean Squared Error(MSE) : 3.343948e+15.
 
     
 ## Results
