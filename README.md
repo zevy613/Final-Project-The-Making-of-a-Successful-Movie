@@ -137,19 +137,19 @@ We can determine from a Post-Hoc Multiple Comparison Test that movies rated R, U
 
 <!-- Optional headings to add -->
 
-## Results/Summary/Conclusion
- - My model can explain approximately 72 percent of the variance when predicting how much revenue a movie will be able to generate in revenue.
- - Based on the Post-Hoc Multiple Comparison Test performed above, we can conclude that movies rated R, UR and NC-17 made significantly less in revenue than all other ratings. 
+## Conclusion
+ - My model can explain approximately 72 percent of the variance when predicting how much revenue a movie will be able to generate.
+ - Based on the Post-Hoc Multiple Comparison Test performed above, we can conclude that movies rated R, UR and NC-17 made significantly less in revenue than other ratings that were studied. 
  
-## Recomondations:
+<!-- ## Recomondations:
  - a
  - b
  - c
- 
+  -->
 ## Limitations & Next Steps: 
-One way we could enhance this model would be to add more hyper-parameter tuning on more variables. We could gather more films from a paid API which could give more insite as well as look farther back in time for films that were maded before 2000.
+One way we could enhance this model would be to add more hyper-parameter tuning on more variables. We could also gather more films from a paid API which could give more insite as well as look farther back in time for films that were maded before 2000.
 
-'Also, other Feature Engineering could have been performed with more knowledge of the subject matter.' An expert could be consulted on which what features can be modified for better results.
+Also, other Feature Engineering could have been performed with more knowledge of the subject matter. An expert could be consulted on which what features can be modified for better results.
 
 ## For further information 
 zevy613@gmail.com
