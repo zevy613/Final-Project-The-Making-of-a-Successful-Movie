@@ -126,8 +126,9 @@ We can determine from a Post-Hoc Multiple Comparison Test that movies rated R, U
 
 **Final Training Scores**
 
-<!-- ![png](Visuals/final_model_results.png) -->
-                          OLS Regression Results   
+![png](Visuals/final_model_results.png)
+<!--
+                           OLS Regression Results   
                           
 ==============================================================================
 Dep. Variable:                revenue   R-squared:                       0.788
@@ -237,7 +238,7 @@ Notes:
 [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
 [2] The smallest eigenvalue is 5.9e-29. This might indicate that there are
 strong multicollinearity problems or that the design matrix is singular.
-
+ -->
 
 **Graph of coefficients**
 
