@@ -129,7 +129,7 @@ We can determine from a Post-Hoc Multiple Comparison Test that movies rated R, U
 <!-- ![png](Visuals/final_model_results.png) -->
                           OLS Regression Results   
                           
-====================================================================================================================
+==============================================================================
 Dep. Variable:                revenue   R-squared:                       0.788
 Model:                            OLS   Adj. R-squared:                  0.783
 Method:                 Least Squares   F-statistic:                     166.6
@@ -140,7 +140,7 @@ Df Residuals:                    3496   BIC:                         1.376e+05
 Df Model:                          78                                         
 Covariance Type:            nonrobust 
 
-====================================================================================================================
+======================================================================================================
                                          coef    std err          t      P>|t|      [0.025      0.975]
 
 ------------------------------------------------------------------------------------------------------
@@ -226,20 +226,20 @@ ProdComp_Warner Bros. Pictures     -7.523e+06   4.65e+06     -1.617      0.106  
 ProdComp_Wild Bunch                -1.477e+07   9.67e+06     -1.528      0.127   -3.37e+07    4.18e+06
 ProdComp_Working Title Films          6.3e+06   9.59e+06      .0657      .0511   -1.25e+07    2.51e+07
 
-====================================================================================================================
+======================================================================================================
 Omnibus:                     1043.231   Durbin-Watson:                   2.054
 Prob(Omnibus):                  0.000   Jarque-Bera (JB):             9092.228
 Skew:                           1.135   Prob(JB):                         0.00
 Kurtosis:                      10.475   Cond. No.                     1.28e+16
 
-====================================================================================================================
+======================================================================================================
 Notes:
 [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
 [2] The smallest eigenvalue is 5.9e-29. This might indicate that there are
 strong multicollinearity problems or that the design matrix is singular.
 
 
-**Graphs of coefficients**
+**Graph of coefficients**
 
 ![png](Visuals/coefficients_graph.png)
 
